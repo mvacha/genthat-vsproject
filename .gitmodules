@@ -1,0 +1,4 @@
+[submodule "genthat"]
+	path = genthat
+	url = git@github.com:PRL-PRG/genthat.git
+	branch = feature/clean-api
