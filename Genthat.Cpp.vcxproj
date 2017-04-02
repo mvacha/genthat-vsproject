@@ -77,7 +77,7 @@
     <NMakeBuildCommandLine>nmake build</NMakeBuildCommandLine>
     <NMakeReBuildCommandLine>build</NMakeReBuildCommandLine>
     <NMakePreprocessorDefinitions>WIN32;_DEBUG;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
-    <IncludePath>C:\Program Files\R\R-3.3.3\include;C:\Users\micha\Documents\R\win-library\3.3\Rcpp\include;C:\Users\micha\Repos\genthat-vsproj\genthat\inst\include;$(IncludePath)</IncludePath>
+    <IncludePath>C:\Program Files\R\R-3.3.3\include;C:\Users\micha\Documents\R\win-library\3.3\Rcpp\include;C:\Users\micha\Repos\genthat-vsproject\genthat\inst\include;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <NMakeBuildCommandLine>build</NMakeBuildCommandLine>
