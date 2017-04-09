@@ -1,10 +1,10 @@
 build:
-	R CMD build genthat
+	R CMD build genthat --no-manual --no-build-vignettes
 
-install: build
-	R CMD INSTALL genthat_0.1.0.tar.gz
+install:
+	R CMD INSTALL genthat --no-docs --no-html --no-multiarch --with-keep.source
 
-test:
+test: install
 	cd genthat
 	Rscript tests/testthat.R
 

@@ -74,7 +74,7 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <NMakeBuildCommandLine>nmake build</NMakeBuildCommandLine>
+    <NMakeBuildCommandLine>nmake test</NMakeBuildCommandLine>
     <NMakeReBuildCommandLine>build</NMakeReBuildCommandLine>
     <NMakePreprocessorDefinitions>WIN32;_DEBUG;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
     <IncludePath>C:\Program Files\R\R-3.3.3\include;C:\Users\micha\Documents\R\win-library\3.3\Rcpp\include;C:\Users\micha\Repos\genthat-vsproject\genthat\inst\include;$(IncludePath)</IncludePath>

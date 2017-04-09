@@ -22,17 +22,6 @@
     <None Include="genthat\R\run-simple-tests.R" />
     <None Include="genthat\R\unnecessary.R" />
     <None Include="genthat\tests\testthat.R" />
-    <None Include="genthat\tests\testthat\disabled-tests\belts.R.disabled" />
-    <None Include="genthat\tests\testthat\disabled-tests\s1.R.disabled" />
-    <None Include="genthat\tests\testthat\disabled-tests\test-basic-usage.R.bkp" />
-    <None Include="genthat\tests\testthat\disabled-tests\test-corner.R.disabled" />
-    <None Include="genthat\tests\testthat\disabled-tests\test-filtering.R.disabled" />
-    <None Include="genthat\tests\testthat\disabled-tests\test-helpers.R.disabled" />
-    <None Include="genthat\tests\testthat\disabled-tests\test-serialize-cpp.R.disabled" />
-    <None Include="genthat\tests\testthat\disabled-tests\test-serialize.R.disabled" />
-    <None Include="genthat\tests\testthat\disabled-tests\test-testgen.R.disabled" />
-    <None Include="genthat\tests\testthat\disabled-tests\_test-capture.R" />
-    <None Include="genthat\tests\testthat\disabled-tests\_test-generated-tests.R" />
     <None Include="genthat\tests\testthat\example-package\DESCRIPTION" />
     <None Include="genthat\tests\testthat\example-package\NAMESPACE" />
     <None Include="genthat\tests\testthat\example-package\R\main.R" />
@@ -40,8 +29,11 @@
     <None Include="genthat\tests\testthat\example-package\tests\testthat\testMain.R" />
     <None Include="genthat\tests\testthat\test-decoration-api.R" />
     <None Include="genthat\tests\testthat\test-decoration.R" />
+    <None Include="genthat\tests\testthat\test-generated-tests.R" />
     <None Include="genthat\tests\testthat\test-generation.R" />
     <None Include="genthat\tests\testthat\test-helpers.R" />
+    <None Include="genthat\tests\testthat\test-is-syntactic.R" />
+    <None Include="genthat\tests\testthat\test-serialize-cpp.R" />
     <None Include="genthat\tests\testthat\test-tracing.R" />
     <None Include="genthat\tests\testthat\utils.R" />
   </ItemGroup>
